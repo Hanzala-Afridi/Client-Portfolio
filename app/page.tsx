@@ -33,130 +33,123 @@ export default function Home() {
   // Services data
   const services = [
     {
-      title: "CUSTOM WEB DEVELOPMENT",
-      description: "Building responsive and modern web applications using cutting-edge technologies",
-      icon: Code,
-      image: "https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg"
-    },
+    title: "CUSTOM WEB DEVELOPMENT",
+    description: "Building responsive and modern web applications using cutting-edge technologies",
+    image: "https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg",
+    icon: Code  // <-- Yeh line add karni hai
+  },
     {
-      title: "GRAPHIC DESIGNING",
-      description: "Creative and visually appealing designs crafted to enhance brand identity and user experience.",
-      icon: "🎨",
-      image: "https://images.pexels.com/photos/3747279/pexels-photo-3747279.jpeg"
-   },
+    title: "GRAPHIC DESIGNING",
+    description: "Creative and visually appealing designs crafted to enhance brand identity and user experience.",
+    image: "https://images.pexels.com/photos/3747279/pexels-photo-3747279.jpeg",
+    icon: Code  // <-- Yeh line add karni hai
+  },
+    {
+    title: "ELECTRONIC DEVICE CIRCUIT PROJECT",
+    description: "Designing and implementing electronic circuits for various applications",
+    image: "https://images.pexels.com/photos/6755093/pexels-photo-6755093.jpeg",
+    icon: Cpu  // <-- Yeh line add karni hai
+  },
+    {
+    title: "DATA STRUCTURE AND ALGORITHM PROJECT",
+    description: "Implementing efficient algorithms and data structures for optimal performance",
+    icon: Code, // <-- Yeh line add kar diya gaya
+    image: "https://images.pexels.com/photos/5380589/pexels-photo-5380589.jpeg"
+  },
+    {
+    title: "DIGITAL LOGIC DESIGN PROJECT",
+    description: "Creating digital systems and logic circuits for computational tasks",
+    icon: Cpu, // <-- Yeh line add kar diya gaya
+    image: "https://images.pexels.com/photos/8471981/pexels-photo-8471981.jpeg"
+  },
+     {
+    title: "PYTHON PROGRAMMING PROJECTS",
+    description: "Developing applications and solutions using Python programming language",
+    icon: Code, // <-- Yeh line add kar diya gaya
+    image: "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg"
+  },
+    
+   {
+    title: "C/C++ PROGRAMMING PROJECTS",
+    description: "Developing efficient system-level programs and problem-solving solutions using C",
+    icon: Code, // <-- Yeh line add kar diya gaya
+    image: "https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fblog_post_page%2F4087150%2Fcover_image%2Fregular_1708x683%2Fcover-0828_AfterAllTheseYearstheWorldisStillPoweredbyCProgramming_Razvan_Newsletter-09c602d672400e97949703273ad4fc66.png"
+  },{
+    title: "JAVA PROGRAMMING PROJECTS",
+    description: "Building robust applications and scalable solutions with Java",
+    icon: Code, // <-- Yeh line add kar diya gaya
+    image: "https://images.pexels.com/photos/270623/pexels-photo-270623.png"
+  },
+    {
+    title: "MOBILE APP DEVELOPMENT",
+    description: "Building innovative and user-friendly mobile applications for seamless interaction and automation.",
+    icon: Code, // <-- Yeh line add kar diya gaya
+    image: "https://images.pexels.com/photos/89955/pexels-photo-89955.jpeg"
+  },
 
     {
-      title: "ELECTRONIC DEVICE CIRCUIT PROJECT",
-      description: "Designing and implementing electronic circuits for various applications",
-      icon: Cpu,
-      image: "https://images.pexels.com/photos/6755093/pexels-photo-6755093.jpeg"
-    },
+    title: "OPERATING SYSTEM PROJECT",
+    description: "Designing process management, memory handling, file systems, and resource allocation for efficient OS functionality.",
+    icon: Code, // <-- Yeh line add kar diya gaya
+    image: "https://images.pexels.com/photos/5926393/pexels-photo-5926393.jpeg"
+  },
     {
-      title: "DATA STRUCTURE AND ALGORITHM PROJECT",
-      description: "Implementing efficient algorithms and data structures for optimal performance",
-      icon: Database,
-      image: "https://images.pexels.com/photos/5380589/pexels-photo-5380589.jpeg"
-    },
+    title: "LINUX OPERATING SYSTEM PROJECT",
+    description: "Implementing a Linux-based system with file sharing capabilities and role-based access control to manage users and resources efficiently.",
+    icon: Code, // <-- Yeh line add kar diya gaya
+    image: "https://images.pexels.com/photos/11034131/pexels-photo-11034131.jpeg"
+  },  
     {
-      title: "DIGITAL LOGIC DESIGN PROJECT",
-      description: "Creating digital systems and logic circuits for computational tasks",
-      icon: Cpu,
-      image: "https://images.pexels.com/photos/8471981/pexels-photo-8471981.jpeg"
-    },
-    {
-      title: "APPLIED PHYSICS PROJECT",
-      description: "Practical applications of physics principles in real-world scenarios",
-      icon: Zap,
-      image: "https://images.pexels.com/photos/806763/pexels-photo-806763.jpeg"
-    },
-    {
-      title: "PYTHON PROGRAMMING PROJECTS",
-      description: "Developing applications and solutions using Python programming language",
-      icon: Code,
-      image: "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg"
-    },
-    {
-      title: "C/C++ PROGRAMMING PROJECTS",
-      description: "Developing efficient system-level programs and problem-solving solutions using C",
-      icon: Code,
-      image: "https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fblog_post_page%2F4087150%2Fcover_image%2Fregular_1708x683%2Fcover-0828_AfterAllTheseYearstheWorldisStillPoweredbyCProgramming_Razvan_Newsletter-09c602d672400e97949703273ad4fc66.png"
-    },
-    {
-      title: "JAVA PROGRAMMING PROJECTS",
-      description: "Building robust applications and scalable solutions with Java",
-      icon: Code,
-      image: "https://images.pexels.com/photos/270623/pexels-photo-270623.png"
-    },
-    {
-      title: "MOBILE APP DEVELOPMENT",
-      description: "Building innovative and user-friendly mobile applications for seamless interaction and automation.",
-      icon: "📱",  // Using a mobile phone emoji as the icon for Mobile App Development
-      image: "https://images.pexels.com/photos/89955/pexels-photo-89955.jpeg"
-    },
-
-    {
-      title: "OPERATING SYSTEM PROJECT",
-      description: "Designing process management, memory handling, file systems, and resource allocation for efficient OS functionality.",
-      icon: Cpu,
-      image: "https://images.pexels.com/photos/5926393/pexels-photo-5926393.jpeg"
-    },
-    {
-      title: "LINUX OPERATING SYSTEM PROJECT",
-      description: "Implementing a Linux-based system with file sharing capabilities and role-based access control to manage users and resources efficiently.",
-      icon: Cpu,
-      image: "https://images.pexels.com/photos/11034131/pexels-photo-11034131.jpeg"
-    },    
-    {
-      title: "SOFTWARE AND AUTOMATION SYSTEMS",
-      description: "Designing and delivering innovative software and automation systems to streamline operations, enhance productivity and drive business growth.",
-      icon: Cpu,
-      image: "https://images.pexels.com/photos/38568/apple-imac-ipad-workplace-38568.jpeg"
-    }            
+    title: "SOFTWARE AND AUTOMATION SYSTEMS",
+    description: "Designing and delivering innovative software and automation systems to streamline operations, enhance productivity and drive business growth.",
+    icon: Code, // <-- Yeh line add kar diya gaya
+    image: "https://images.pexels.com/photos/38568/apple-imac-ipad-workplace-38568.jpeg"
+  },         
 
   ];
 
   // Experience data
-  const experiences = [
-    {
-      title: "FREELANCE",
-      services: [
-        "WEB DEVELOPMENT",
-        "MOBILE APPLICATION DEVELOPMENT", 
-        "DIGITAL MARKETING",
-        "GRAPHIC DESIGNING",
-        
-      ],
-      icon: Building,
-      image: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg"
-    },
-    {
-  title: "GRAPHIC DESIGNING",
-  company: "FREELANCE",
-  services: [
-    "BRAND IDENTITY DESIGN (Logos, Business Cards, Brand Guidelines)",
-    "LOGO DESIGN",
-    "MARKETING MATERIALS (Brochures, Flyers, Posters)",
-    "WEB AND SOCIAL MEDIA DESIGN (Website Graphics, Social Media Posts)",
-    "SOCIAL MEDIA CONTENT CREATION (Custom Graphics, Infographics, Animated Posts)",
-    "IllUSTRATION (Custom Illustrations for Various Uses)"
-  ],
-  icon: "💼",  // Using a briefcase emoji to represent freelance work
-  image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg"
+const experiences = [
+  {
+    title: "FREELANCE",
+    services: [
+      "WEB DEVELOPMENT",
+      "MOBILE APPLICATION DEVELOPMENT", 
+      "DIGITAL MARKETING",
+      "GRAPHIC DESIGNING",
+    ],
+    icon: Code, // <-- Add the icon here (Code icon)
+    image: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg"
   },
-   {
-  title: "DIGITAL MARKETING",
-  company: "FREELANCE",
-  services: [
-    "DEVELOPING AND EXECUTING DIGITAL MARKETING STRATEGIES TO DRIVE BRAND AWARENESS AND CUSTOMER ENGAGEMENT",
-    "MANAGING SOCIAL MEDIA PLATFORMS, CREATING POSTS, AND RUNNING PAID AD CAMPAIGNS",
-    "CREATING AND ANALYZING CONTENT FOR EMAIL MARKETING, NEWSLETTERS, AND BLOGS",
-    "SEO OPTIMIZATION AND INCREASING ONLINE PRESENCE THROUGH ORGANIC SEARCH",
-    "CONDUCTING MARKET RESEARCH TO UNDERSTAND TARGET AUDIENCE AND COMPETITION"
-  ],
-  icon: "👥",  // Using a people emoji for a digital marketing role
-  image: "https://images.pexels.com/photos/8499580/pexels-photo-8499580.jpeg"
-},
-  ];
+  {
+    title: "GRAPHIC DESIGNING",
+    company: "FREELANCE",
+    services: [
+      "BRAND IDENTITY DESIGN (Logos, Business Cards, Brand Guidelines)",
+      "LOGO DESIGN",
+      "MARKETING MATERIALS (Brochures, Flyers, Posters)",
+      "WEB AND SOCIAL MEDIA DESIGN (Website Graphics, Social Media Posts)",
+      "SOCIAL MEDIA CONTENT CREATION (Custom Graphics, Infographics, Animated Posts)",
+      "ILLUSTRATION (Custom Illustrations for Various Uses)"
+    ],
+    icon: Code, // <-- Add the icon here (Code icon)
+    image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg"
+  },
+  {
+    title: "DIGITAL MARKETING",
+    company: "FREELANCE",
+    services: [
+      "DEVELOPING AND EXECUTING DIGITAL MARKETING STRATEGIES TO DRIVE BRAND AWARENESS AND CUSTOMER ENGAGEMENT",
+      "MANAGING SOCIAL MEDIA PLATFORMS, CREATING POSTS, AND RUNNING PAID AD CAMPAIGNS",
+      "CREATING AND ANALYZING CONTENT FOR EMAIL MARKETING, NEWSLETTERS, AND BLOGS",
+      "SEO OPTIMIZATION AND INCREASING ONLINE PRESENCE THROUGH ORGANIC SEARCH",
+      "CONDUCTING MARKET RESEARCH TO UNDERSTAND TARGET AUDIENCE AND COMPETITION"
+    ],
+    icon: Cpu, // <-- Add the icon here (Cpu icon)
+    image: "https://images.pexels.com/photos/8499580/pexels-photo-8499580.jpeg"
+  },
+];
+
 
   // Projects data
   const projects = [
@@ -178,14 +171,14 @@ export default function Home() {
       title: "HOSTPITAL MANAGEMENT SYSTEM",
       description: "A comprehensive software solution built with Python to streamline hospital operations, including patient management, appointment scheduling, and billing. Designed to improve efficiency and accuracy in healthcare facilities.",
       category: "PYTHON PROGRAMMING",
-      icon: "🏥", 
+      icon: Code,
       image: "https://images.pexels.com/photos/6129210/pexels-photo-6129210.jpeg"
     },
    {
       title: "CAFE MANAGEMENT SYSTEM",
       description: "A data-driven system to manage cafe operations, including inventory tracking, order processing, and sales analysis, designed to streamline business operations and improve decision-making through real-time data insights.",
       category: "OOP JAVA",
-      icon: "🍽️",  // Using a plate with cutlery emoji to represent a cafe-related project
+      icon: Code,
       image: "https://images.pexels.com/photos/6612738/pexels-photo-6612738.jpeg"
    },
 
@@ -193,35 +186,35 @@ export default function Home() {
       title: "GRAPHIC DESIGNING",
       description: "Creating visually striking and engaging designs tailored to enhance brand identity, marketing materials, and user experience across digital and print media.",
       category: "DESIGN",
-      icon: "🎨",  // Using a paint palette emoji for graphic design
+      icon: Code,
       image: "https://images.pexels.com/photos/2576194/pexels-photo-2576194.jpeg"
     },
     {
       title: "TRAFFIC LIGHT CONTROL SYSTEM",
       description: "Electronic Circuit Project",
       category: "ELECTRONIC",
-      icon: Zap,
+      icon: Code,
       image: "https://i.ytimg.com/vi/shtKAoMzABQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCrujukQt2XZtorfE8836Ai4H3dcA"
     },
     {
       title: "WATER LEVEL INDICATOR",
       description: "Applied Physics Project",
       category: "PHYSICS",
-      icon: Zap,
+      icon: Code,
       image: "https://m.media-amazon.com/images/I/61Qo4FkR5HL.jpg"
     },
     {
       title: "LIBRARY MANAGEMENT SYSTEM",
       description: "C++ Application",
       category: "C++",
-      icon: Database,
+      icon: Code,
       image: "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg"
     },
     {
       title: "LINE FOLLOWING ROBOT CAR",
       description: "Digital Logic Design Project",
       category: "DIGITAL LOGIC DESIGN",
-      icon: Zap,
+      icon: Code,
       image: "https://images.pexels.com/photos/7868890/pexels-photo-7868890.jpeg"
     }
   ];
@@ -390,7 +383,7 @@ const education = [
       icon: Linkedin,
       label: "LinkedIn",
       value: "LinkedIn Profile",
-      href: "https://pk.linkedin.com/in/hanzala-afridi-0084502b4?trk=people-guest_people_search-card",
+      href: "https://pk.linkedin.com/",
       color: "bg-blue-500"
     },
     {
@@ -605,7 +598,7 @@ const education = [
                     <div className="relative overflow-hidden rounded-2xl shadow-2xl group">
                       <Image
                         src={experience.image}
-                        alt={experience.company}
+                        alt={experience.company || 'Default Company'}
                         width={600}
                         height={400}
                         className="object-cover w-full h-80 group-hover:scale-110 transition-transform duration-500"
